@@ -22,29 +22,28 @@ module.exports = {
   configs: {
     recommended: {
       rules: {
-        '@reverecre/eslint-plugin-relay/graphql-syntax': 'error',
-        '@reverecre/eslint-plugin-relay/compat-uses-vars': 'warn',
-        '@reverecre/eslint-plugin-relay/graphql-naming': 'error',
-        '@reverecre/eslint-plugin-relay/generated-flow-types': 'warn',
-        '@reverecre/eslint-plugin-relay/no-future-added-value': 'warn',
-        '@reverecre/eslint-plugin-relay/unused-fields': 'warn',
-        '@reverecre/eslint-plugin-relay/must-colocate-fragment-spreads': 'warn',
-        '@reverecre/eslint-plugin-relay/function-required-argument': 'warn',
-        '@reverecre/eslint-plugin-relay/hook-required-argument': 'warn'
+        '@reverecre/relay/graphql-syntax': 'error',
+        '@reverecre/relay/compat-uses-vars': 'warn',
+        '@reverecre/relay/graphql-naming': 'error',
+        '@reverecre/relay/generated-flow-types': 'warn',
+        '@reverecre/relay/no-future-added-value': 'warn',
+        '@reverecre/relay/unused-fields': 'warn',
+        '@reverecre/relay/must-colocate-fragment-spreads': 'warn',
+        '@reverecre/relay/function-required-argument': 'warn',
+        '@reverecre/relay/hook-required-argument': 'warn'
       }
     },
     strict: {
       rules: {
-        '@reverecre/eslint-plugin-relay/graphql-syntax': 'error',
-        '@reverecre/eslint-plugin-relay/compat-uses-vars': 'error',
-        '@reverecre/eslint-plugin-relay/graphql-naming': 'error',
-        '@reverecre/eslint-plugin-relay/generated-flow-types': 'error',
-        '@reverecre/eslint-plugin-relay/no-future-added-value': 'error',
-        '@reverecre/eslint-plugin-relay/unused-fields': 'error',
-        '@reverecre/eslint-plugin-relay/must-colocate-fragment-spreads':
-          'error',
-        '@reverecre/eslint-plugin-relay/function-required-argument': 'error',
-        '@reverecre/eslint-plugin-relay/hook-required-argument': 'error'
+        '@reverecre/relay/graphql-syntax': 'error',
+        '@reverecre/relay/compat-uses-vars': 'error',
+        '@reverecre/relay/graphql-naming': 'error',
+        '@reverecre/relay/generated-flow-types': 'error',
+        '@reverecre/relay/no-future-added-value': 'error',
+        '@reverecre/relay/unused-fields': 'error',
+        '@reverecre/relay/must-colocate-fragment-spreads': 'error',
+        '@reverecre/relay/function-required-argument': 'error',
+        '@reverecre/relay/hook-required-argument': 'error'
       }
     }
   }
