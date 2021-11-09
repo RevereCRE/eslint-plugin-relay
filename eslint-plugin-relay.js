@@ -22,28 +22,29 @@ module.exports = {
   configs: {
     recommended: {
       rules: {
-        'relay/graphql-syntax': 'error',
-        'relay/compat-uses-vars': 'warn',
-        'relay/graphql-naming': 'error',
-        'relay/generated-flow-types': 'warn',
-        'relay/no-future-added-value': 'warn',
-        'relay/unused-fields': 'warn',
-        'relay/must-colocate-fragment-spreads': 'warn',
-        'relay/function-required-argument': 'warn',
-        'relay/hook-required-argument': 'warn'
+        '@reverecre/eslint-plugin-relay/graphql-syntax': 'error',
+        '@reverecre/eslint-plugin-relay/compat-uses-vars': 'warn',
+        '@reverecre/eslint-plugin-relay/graphql-naming': 'error',
+        '@reverecre/eslint-plugin-relay/generated-flow-types': 'warn',
+        '@reverecre/eslint-plugin-relay/no-future-added-value': 'warn',
+        '@reverecre/eslint-plugin-relay/unused-fields': 'warn',
+        '@reverecre/eslint-plugin-relay/must-colocate-fragment-spreads': 'warn',
+        '@reverecre/eslint-plugin-relay/function-required-argument': 'warn',
+        '@reverecre/eslint-plugin-relay/hook-required-argument': 'warn'
       }
     },
     strict: {
       rules: {
-        'relay/graphql-syntax': 'error',
-        'relay/compat-uses-vars': 'error',
-        'relay/graphql-naming': 'error',
-        'relay/generated-flow-types': 'error',
-        'relay/no-future-added-value': 'error',
-        'relay/unused-fields': 'error',
-        'relay/must-colocate-fragment-spreads': 'error',
-        'relay/function-required-argument': 'error',
-        'relay/hook-required-argument': 'error'
+        '@reverecre/eslint-plugin-relay/graphql-syntax': 'error',
+        '@reverecre/eslint-plugin-relay/compat-uses-vars': 'error',
+        '@reverecre/eslint-plugin-relay/graphql-naming': 'error',
+        '@reverecre/eslint-plugin-relay/generated-flow-types': 'error',
+        '@reverecre/eslint-plugin-relay/no-future-added-value': 'error',
+        '@reverecre/eslint-plugin-relay/unused-fields': 'error',
+        '@reverecre/eslint-plugin-relay/must-colocate-fragment-spreads':
+          'error',
+        '@reverecre/eslint-plugin-relay/function-required-argument': 'error',
+        '@reverecre/eslint-plugin-relay/hook-required-argument': 'error'
       }
     }
   }
